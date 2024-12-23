@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-Year Habit Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin: 20px;
+        }
+        .habit-tracker {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .month {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .month-header {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .days {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 5px;
+            font-size: 12px;
+        }
+        .day {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #ddd;
+            text-align: center;
+            line-height: 20px;
+            cursor: pointer;
+        }
+        .day:hover {
+            background-color: #f0f0f0;
+        }
+        .habit-items {
+            margin-top: 10px;
+        }
+        .habit {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .habit input[type="text"] {
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>1-Year Habit Tracker</h1>
+    <div class="habit-tracker">
+        <!-- Generate months dynamically -->
+        <script>
+            const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+            const daysInMonth = (month, year) => new Date(year, month, 0).getDate();
+
+            const habitTrackerDiv = document.querySelector('.habit-tracker');
+
+            const currentYear = new Date().getFullYear();
+
+            for (let month = 1; month <= 12; month++) {
+                const monthDiv = document.createElement('div');
+                monthDiv.className = 'month';
+
+                const monthHeader = document.createElement('div');
+                monthHeader.className = 'month-header';
+                monthHeader.textContent = `${monthNames[month - 1]} ${currentYear}`;
+                monthDiv.appendChild(monthHeader);
+
+                const daysDiv = document.createElement('div');
+                daysDiv.className = 'days';
+
+                const totalDays = daysInMonth(month, currentYear);
+                for (let day = 1; day <= totalDays; day++) {
+                    const dayDiv = document.createElement('div');
+                    dayDiv.className = 'day';
+                    dayDiv.textContent = day;
+                    daysDiv.appendChild(dayDiv);
+                }
+
+                monthDiv.appendChild(daysDiv);
+
+                const habitItemsDiv = document.createElement('div');
+                habitItemsDiv.className = 'habit-items';
+                for (let i = 0; i < 3; i++) {
+                    const habitDiv = document.createElement('div');
+                    habitDiv.className = 'habit';
+
+                    const textInput = document.createElement('input');
+                    textInput.type = 'text';
+                    textInput.placeholder = 'Enter habit';
+
+                    habitDiv.appendChild(textInput);
+                    habitItemsDiv.appendChild(habitDiv);
+                }
+
+                monthDiv.appendChild(habitItemsDiv);
+                habitTrackerDiv.appendChild(monthDiv);
+            }
+        </script>
+    </div>
+</body>
+</html>
