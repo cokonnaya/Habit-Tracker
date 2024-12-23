@@ -37,7 +37,3 @@ Contributions are welcome! If you have ideas for improving the tracker, feel fre
 ## License
 This project is licensed under the [MIT License](LICENSE).
 ```
-
----
-
-Let me know if you’d like me to adjust the content or add details! You can update the placeholders like `<your-username>` and image links in the README once the repository is ready.
