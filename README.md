@@ -20,12 +20,12 @@ This project is a simple and interactive habit tracker designed to help users tr
 
 ## Live Demo
 If you have GitHub Pages enabled for this repository, you can view the live demo at:
-```
-https://<your-username>.github.io/habit-tracker/
+```[
+https://<your-username>.github.io/habit-tracker/](https://cokonnaya.github.io/Habit-Tracker/)
 ```
 
 ## Screenshots
-![Habit Tracker Preview](link-to-your-screenshot-image)
+![Habit Tracker Screenshot](images/habit-tracker-screenshot.png)
 
 ## Technologies Used
 - **HTML**: For structuring the layout.
