@@ -10,11 +10,9 @@ This project is a simple and interactive habit tracker designed to help users tr
 - Lightweight and easy to use, built entirely with HTML, CSS, and JavaScript.
 
 ## How to Use
-1. Clone this repository Or
-   
-2. Open the `habit_tracker.html` file in your web browser to start using the tracker.
-3. Type your desired habits in the provided input boxes for each month.
-4. Track your progress by referring to the calendar days.
+1. Open the # Habit Tracker [habit-tracker.html](habit-tracker.html) file in your web browser to start using the tracker.
+2. Type your desired habits in the provided input boxes for each month.
+3. Track your progress by referring to the calendar days.
 
 ## Live Demo
 If you have GitHub Pages enabled for this repository, you can view the live demo at:
