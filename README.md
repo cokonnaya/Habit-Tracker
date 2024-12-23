@@ -23,7 +23,8 @@ https://cokonnaya.github.io/Habit-Tracker/
 ```
 
 ## Screenshots
-![Habit Tracker Screenshot](images/habit-tracker-screenshot.png)
+![Habit Tracker Screenshot](habit-tracker-screenshot.png)
+
 
 ## Technologies Used
 - **HTML**: For structuring the layout.
