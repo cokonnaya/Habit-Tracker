@@ -10,10 +10,8 @@ This project is a simple and interactive habit tracker designed to help users tr
 - Lightweight and easy to use, built entirely with HTML, CSS, and JavaScript.
 
 ## How to Use
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/habit-tracker.git
-   ```
+1. Clone this repository Or
+   
 2. Open the `habit_tracker.html` file in your web browser to start using the tracker.
 3. Type your desired habits in the provided input boxes for each month.
 4. Track your progress by referring to the calendar days.
@@ -21,7 +19,7 @@ This project is a simple and interactive habit tracker designed to help users tr
 ## Live Demo
 If you have GitHub Pages enabled for this repository, you can view the live demo at:
 ```[
-https://<your-username>.github.io/habit-tracker/](https://cokonnaya.github.io/Habit-Tracker/)
+https://cokonnaya.github.io/Habit-Tracker/
 ```
 
 ## Screenshots
