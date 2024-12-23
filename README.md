@@ -10,7 +10,7 @@ This project is a simple and interactive habit tracker designed to help users tr
 - Lightweight and easy to use, built entirely with HTML, CSS, and JavaScript.
 
 ## How to Use
-1. Open the # Habit Tracker [habit-tracker.html](habit-tracker.html) file in your web browser to start using the tracker.
+1. Open the # Habit Tracker [habit-tracker.html](index.html) file in your web browser to start using the tracker.
 2. Type your desired habits in the provided input boxes for each month.
 3. Track your progress by referring to the calendar days.
 
