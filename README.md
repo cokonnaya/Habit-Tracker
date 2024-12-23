@@ -9,16 +9,18 @@ This project is a simple and interactive habit tracker designed to help users tr
 - Interactive design where users can visually track daily progress.
 - Lightweight and easy to use, built entirely with HTML, CSS, and JavaScript.
 
-## How to Use
-1. Open the # Habit Tracker [habit-tracker.html](index.html) file in your web browser to start using the tracker.
-2. Type your desired habits in the provided input boxes for each month.
-3. Track your progress by referring to the calendar days.
+## Link to HTML file
+Check it out here [habit-tracker.html](index.html) Feel free to clone this repository or the codes used.
 
 ## Live Demo
 If you have GitHub Pages enabled for this repository, you can view the live demo at:
 ```[
 https://cokonnaya.github.io/Habit-Tracker/
 ```
+## How to Use
+1. Open in your web browser to start using the tracker.
+2. Type your desired habits in the provided input boxes for each month.
+3. Track your progress by referring to the calendar days.
 
 ## Screenshots
 ![Habit Tracker Screenshot](habit-tracker-screenshot.png)
